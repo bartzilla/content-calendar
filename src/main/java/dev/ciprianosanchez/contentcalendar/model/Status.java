@@ -1,0 +1,8 @@
+package dev.ciprianosanchez.contentcalendar.model;
+
+public enum Status {
+    IDEA,
+    IN_PROGRESS,
+    COMPLETED,
+    PUBLISH
+}
