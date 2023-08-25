@@ -13,22 +13,22 @@ import java.util.Optional;
 
 @Repository
 public class ContentCollectionRepository {
-    private final List<Content> content = new ArrayList<>();
+    private final List<Content> contents = new ArrayList<>();
 
     public ContentCollectionRepository() {
     }
 
     public List<Content> findAll() {
-        return content;
+        return contents;
     }
 
     public Optional<Content> findById(Integer id) {
-        return content.stream().filter(c -> c.id().equals(id)).findFirst();
+        return contents.stream().filter(c -> c.id().equals(id)).findFirst();
     }
 
     @PostConstruct
     private void init() {
-        Content c = new Content(1,
+        Content content = new Content(1,
                 "My first blog post",
                 "My fist blog post",
                 Status.IDEA,
@@ -37,8 +37,10 @@ public class ContentCollectionRepository {
                 null,
                 ""
         );
-        content.add(c);
+        contents.add(content);
     }
 
-
+    public void save(Content content) {
+        contents.add(content);
+    }
 }
