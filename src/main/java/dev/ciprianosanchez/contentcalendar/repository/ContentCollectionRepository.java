@@ -30,7 +30,7 @@ public class ContentCollectionRepository {
     private void init() {
         Content content = new Content(1,
                 "My first blog post",
-                "My fist blog post",
+                "My fist blog post description",
                 Status.IDEA,
                 Type.ARTICLE,
                 LocalDateTime.now(),
