@@ -34,7 +34,7 @@ public class ContentCollectionRepository {
                 Type.ARTICLE,
                 LocalDateTime.now(),
                 null,
-                ""
+                "www.google.com"
         );
         contents.add(content);
     }
