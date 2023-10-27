@@ -34,7 +34,7 @@ public class ContentCollectionRepository {
                 Type.ARTICLE,
                 LocalDateTime.now(),
                 null,
-                "www.jetbrains.com"
+                "www.ciprianosanchez.dev"
         );
         contents.add(content);
     }
