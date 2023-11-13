@@ -2,7 +2,7 @@ package dev.ciprianosanchez.contentcalendar.model;
 
 public enum Type {
     ARTICLE,
-    BLOG,
+    VIDEO,
     COURSE,
     CONFERENCE_TALK
 }
