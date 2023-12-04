@@ -5,5 +5,6 @@ public enum Type {
     VIDEO,
     COURSE,
     CONFERENCE_TALK,
-    BOOK
+    BOOK,
+    BlOG
 }
