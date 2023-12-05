@@ -6,5 +6,6 @@ public enum Type {
     COURSE,
     CONFERENCE_TALK,
     BOOK,
-    BlOG
+    BlOG,
+    YOU_TUBE
 }
