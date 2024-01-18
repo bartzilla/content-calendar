@@ -2,6 +2,7 @@ package dev.ciprianosanchez.contentcalendar.model;
 
 import java.time.LocalDateTime;
 
+// tag::r
 public record Content(
         Integer id,
         String title,
