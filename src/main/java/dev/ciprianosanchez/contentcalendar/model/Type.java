@@ -4,6 +4,5 @@ public enum Type {
     ARTICLE,
     VIDEO,
     COURSE,
-    CONFERENCE_TALK,
-    BOOK
+    CONFERENCE_TALK
 }
